@@ -1,0 +1,37 @@
+@import '../../style/variables.module.scss';
+
+.form{
+    .input__grp{
+        margin-bottom: 1.5rem;
+        font-size: 1.3rem;
+        color: white;
+        input{
+            width: 100%;
+            background: #171f38;
+            padding: 1rem 2rem;
+            outline: none;
+            border-radius: 4px;
+        }
+        textarea{
+            width: 100%;
+            background: #171f38;
+            padding: 1rem 2rem;
+            outline: none;
+            resize: none;
+            border-radius: 4px;
+        }
+        p{
+            margin-top: .5rem;
+            color: rgba(255, 0, 0, 0.755);
+            font-size: 1rem;
+        }
+    }
+    button{
+        padding: .8rem 2rem;
+        font-size: 1.3rem;
+        border: 1px solid $someTextColor;
+        border-radius: 4px;
+        color: $someTextColor;
+
+    }
+}

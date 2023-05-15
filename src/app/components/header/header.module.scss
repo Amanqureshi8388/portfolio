@@ -1,0 +1,119 @@
+@import '../../style/variables.module.scss';
+
+.header {
+    color: $someTextColor;
+    .logo {
+      font-size: 2.5rem;
+      font-weight: 600;
+    }
+    .navBar {
+      position: fixed;
+      top: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+      background: #171f3897;
+      z-index: 1;
+      transform: translateX(100%);
+      transition: all 0.3s linear;
+      justify-content: center;
+  
+      .navMenu {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 60%;
+        height: 100%;
+        display: flex;
+        justify-content:flex-start;
+        align-items: center;
+        flex-direction: column;
+        gap: 3rem;
+        padding: 10rem 0 0 0;
+        font-size: 1.5rem;
+        font-weight: 500;
+        background: $DarkBG;
+        .closeMenu{
+            border: 1px solid;
+            height: 3.5rem;
+            width: 3.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #0e1630;
+            border: 1px solid;
+            position: absolute;
+            top: 2rem;
+            right: calc(100% + 3rem) ;
+            font-size: 2.5rem;
+            cursor: pointer;
+        }
+        a {
+          font-weight: 600;
+          color: white;
+        }
+      }
+    }
+    .mobile__menu {
+      font-size: 2rem;
+      cursor: pointer;
+      display: block;
+      color: $someTextColor;
+    }
+    .menu__active {
+      transform: translateX(0px);
+    }
+  }
+  
+  .header__shrink {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    // box-shadow: 5px 5px 15px -5px #171f38b8;
+    box-shadow: #253156b8 0px 1px 4px;
+    z-index: 10;
+    background-color: $DarkBG;
+  }
+  
+  @media only screen and (min-width:48rem){
+      .header{
+          .navBar{
+            position: relative;
+            background:none;
+            background-color: none;
+            width: auto;
+            height: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .navMenu{
+                padding: 0;
+                background: none;
+                  justify-content: center;
+                  align-items: center;
+                  flex-direction: row;
+                  width: max-content;
+                  a{
+                    transition: all .3s ease-in-out;
+                    text-decoration: none;
+                   color: #8892b0;
+                    &:hover{
+                      color: $someTextColor;
+                    }
+                  }
+                  .closeMenu{
+                    display: none;
+                  }
+              }
+          }
+          .mobile__menu{
+              display: none;
+          }
+          .menu__active{
+              transform: translateX(0px);
+          }
+          
+  
+      }
+  }

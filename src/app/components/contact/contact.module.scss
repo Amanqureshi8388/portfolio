@@ -1,0 +1,42 @@
+
+@import '../../style/variables.module.scss';
+.contact{
+    margin: 5rem 0;
+
+    .contact__left{
+        h2{
+            font-size: 2rem;
+            font-weight: 500;
+            margin-bottom: 2rem;
+        }
+
+        
+        address{
+            margin: 2rem 0;
+            div{
+                margin-top: 1rem;
+                display: flex;
+                align-items: center;
+                .icons{
+                    color: $someTextColor;
+                    padding: .5rem;
+                    background-color: #01d29338;
+                    border-radius: 5px;
+                    font-size: 2rem;
+                }
+                span{
+                    font-weight: 600;
+                    margin-left: 1rem;
+                    display: inline-block;
+                    color: $alterTextColor;
+                    font-size: 1.2rem;
+                    letter-spacing: 1px;
+                    line-height: 2.5rem;
+                }
+            }
+        }
+
+        
+
+    }
+}

@@ -1,0 +1,18 @@
+@import '../../../style/variables.module.scss';
+
+.subtitle{
+    position: relative;
+    color: $someTextColor;
+    position: relative;
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+    &::before{
+        content: '';
+        position: absolute;
+        top: calc(50% - 1px);
+        left: -3rem;
+        width: 2.5rem;
+        height: .1rem;
+        background-color: $someTextColor;
+    }
+}

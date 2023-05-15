@@ -1,0 +1,69 @@
+@import '../../style/variables.module.scss';
+
+
+.section__about{
+    margin: 5rem 0;
+    .about__box{
+        .box__left{
+            h2{
+                font-size: 2rem;
+                font-weight: 500;
+            }
+            p{
+                margin-top: 1rem;
+            }
+            
+            .checkBox{
+                h6{
+                    font-size: 1.3rem;
+                    margin: 1rem;
+                    color: $alterTextColor;
+                    display: flex;
+                    align-items: center;
+                    span{
+                        
+                        color: $someTextColor;
+                        i{
+                            margin-top: 1rem;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+
+    .box__right{
+        .about_image{
+            padding: 1rem;
+            background-color: #171f38;
+            border-radius: 50%;
+            transition: all .3s linear;
+            &:hover{
+                background-color: $someTextColor;
+            }
+            img{
+                width: 100%;
+                border-radius: 50%;
+            }
+            .about__image_box{
+                width: 200px;
+            }
+        } 
+    }
+}
+
+@media screen and (max-width:480px) {
+    .section__about{
+        // margin: 5rem 0 3rem 0;
+        .about__box{
+            .box__left{
+                padding: 0;
+                .section__btn{
+                    margin-bottom: 2rem;
+                }
+            }
+           
+        }
+    }
+}

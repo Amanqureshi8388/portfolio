@@ -1,0 +1,22 @@
+@import '../../style/variables.module.scss';
+
+.section__services{
+    .services__heading{
+        span{
+            color: $someTextColor;
+        }
+    }
+    .services {
+       .wrapper{
+        border: 2px solid #171f38;
+        border-radius: 5px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-bottom: 3px solid $someTextColor;
+        transition: all .4s linear;
+        &:hover{
+            border: 2px solid $someTextColor;
+        }
+       }
+    }
+}
