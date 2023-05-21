@@ -38,7 +38,7 @@ const Hero = () => {
             </div>
 
             <div className={`${style.section__btn}`}>
-              <Link href={`/pdf/Aman_Qureshi_Resume_13-05-2023-22-39-33.pdf`}  target="_blank" rel="noopener noreferrer" alt='alt text'>Download Resume</Link>
+              <Link href={`/PDF/Aman_Qureshi_Resume.pdf`}  target="_blank" alt='alt text'>Download Resume</Link>
             </div>
           </div>
         </div>
