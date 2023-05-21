@@ -26,7 +26,6 @@ const Hero = () => {
               <p>Tech Stack</p>
               <div className='text-white'>|</div>
               <div className={`${style.icons} flex items-center gap-7 text-3xl md:text-4xl`}>
-              {/* <i className={`${style.logo} ri-html5-fill`}></i> */}
               <AiFillHtml5 className={`${style.logo}`} />
               <FaCss3Alt className={`${style.logo}`}/>
               <SiJavascript className={`${style.logo}`}/>
