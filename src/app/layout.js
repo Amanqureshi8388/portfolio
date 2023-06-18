@@ -11,8 +11,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <link rel='shortcut icon' href='/fevicon.ico'/>
+      <head>
       <title>Aman.dev</title>
+      </head>
+      <link rel='shortcut icon' href='/fevicon.ico'/>
       <body className={inter.className} suppressHydrationWarning={true}>{children}</body>
     </html>
   )

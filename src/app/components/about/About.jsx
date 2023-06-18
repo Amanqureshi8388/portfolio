@@ -21,7 +21,7 @@ const About = () => {
                   I’m here <div>to help next project</div>
                 </h2>
                 <p className={`content-writing`}>
-                  As a Front-End Web Developer. I possess an impressive arsenal if skills in HTML, CSS, javascript, React, Next, Tailwind and SCSS. I excel in designing and maintaining responsive websites that offer a smooth experience. My expertise lies in crafting dynamic. engaging interface through writing clean and optimized code and utilizing cutting-edge development tools and techniques. I am also a team player who thrives in collaborating with cross-functional teams to produce outstanding web application.    
+                As a  Front-End Web Developer, I bring an extensive repertoire of skills in HTML, CSS, JavaScript, React, Next.js, Tailwind, and SCSS. With an unwavering commitment to excellence, I specialize in creating and upholding responsive websites that deliver an impeccable user experience. My proficiency lies in constructing dynamic and captivating interfaces by employing immaculate, optimized code, alongside leveraging state-of-the-art development tools and techniques. Moreover, I am a collaborative team player, thriving in cross-functional environments, and consistently delivering outstanding web applications through seamless cooperation with diverse teams.    
                 </p>
   
                 <div

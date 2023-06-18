@@ -7,7 +7,7 @@ const portfolio = [
       keyword: [ "React","SCSS"],
       liveUrl: "https://shopping-hub-ecommerce.netlify.app",
       gitCode:'https://github.com/Amanqureshi8388/ecommerce-website',
-      description: "It is an e-commerce With an emphasis on simplicity and clean design, this shop prioritize the user experience, making it easy for customers to find and purchase the products they need.",
+      description: "Simplistic, user-centric e-commerce: intuitive navigation, seamless functionality. Streamlined, hassle-free shopping, no barriers. Usability, convenience, satisfaction, conversions.",
     },
   
     {
@@ -18,7 +18,7 @@ const portfolio = [
       keyword: [ "React","SCSS"],
       liveUrl: "https://movix-app-seven.vercel.app/",
       gitCode:'https://github.com/Amanqureshi8388/movie-app',
-      description: "This movie application is easy to use. This film application aims to provide you with the correct information about all films. It is very quick and clean and very user-friendly as it builds new technologies."
+      description: "User-friendly movie app: accurate, swift, concise. Leveraging tech for enhanced experience, innovation. Seamlessly combines film knowledge, technology for convenience and efficiency."
     },
   
     {
@@ -29,7 +29,7 @@ const portfolio = [
       keyword: [ "React","SCSS"],
       liveUrl: "https://code-pen-editor.netlify.app/",
       gitCode:'https://github.com/Amanqureshi8388/code-editor',
-      description:'It is a simple web-based code editor in which you can practice HTML, CSS and Javascript. The purpose of this code publisher is to write code and practice without downloading applications and software. '
+      description:'Accessible web-based code editor: HTML, CSS, JavaScript practice. No downloads required, effortless coding. Convenient publishing environment empowers skill honing. User-friendly, hassle-free access for aspiring developers.'
     },
   ];
   

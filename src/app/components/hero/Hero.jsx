@@ -19,9 +19,7 @@ const Hero = () => {
             <Subtitle subTitle="Hi, My name is "/>
             <h1 className=" text-[40px] md:text-[60px] lg:text-[10rem]">Aman Qureshi</h1>
             <h3 className={`${style.small} text-[30px] md:text-[50px] lg:text-[7rem]`}>I build things for the web.</h3>
-            <p className={'content-writing lg:w-[70%]'}>
-               I{`'`} m a <span className="highlight">web developer</span> from Delhi, India. In my spare time I enjoy DIY, gaming and building my own projects. <span className="highlight">My preferred tool are React.js and Next.js</span> .  I create successful websites that are fast, easy to use, and built with best practices.
-            </p>
+            <p className={'content-writing lg:w-[70%]'}>I{`'`}m a Delhi-based <span className="highlight">web developer</span> with a passion for DIY, gaming, and personal projects. <span className="highlight"> React.js and Next.js are my preferred tools of choice.</span> By adhering to best practices, I craft high-performing websites that are user-friendly, lightning-fast, and optimized for success</p>
             <div className={`${style.techStack} flex items-center gap-5 md:gap-10 my-[3rem] lg:my-[5rem] text-lg md:text-2xl`}>
               <p>Tech Stack</p>
               <div className='text-white'>|</div>

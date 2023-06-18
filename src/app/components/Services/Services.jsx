@@ -15,8 +15,8 @@ const Services = () => {
       <section className={`${style.section__services}`} id='services'>
           <div className="container">
              <section>
-              <Subtitle subTitle={'services'}/>
-              <p className={`${style.services__heading} content-writing md:w-[70%] lgw-[50%] my-[2rem]`}>As a Frontend develope, My goal is to <span>visual appealing</span> and <span>user friendly </span> interfaces that meet the needs of the client and their users</p>
+              <Subtitle subTitle={'Services'}/>
+              <p className={`${style.services__heading} content-writing md:w-[70%] lgw-[50%] my-[2rem]`}>As a Frontend developer, my objective is to create <span>visual appealing</span> and <span>user friendly </span> interfaces that precisely cater to the needs of both clients and their users.</p>
              </section>
              <section className={`${style.services} grid sm:grid-cols-2 lg:grid-cols-3 gap-6`}>
               <div className={`${style.wrapper} p-6`}>
@@ -25,7 +25,7 @@ const Services = () => {
                   </div>
                   <div>
                       <p className=' text-[1.6rem] md:text-[2rem] my-6 text-[#CCD6F6]'>Webapp developer </p>
-                      <p className='content-writing'>Complex, innovative, responsive and user-centric web application solutions wit close attention to detail that result in the increase in conversions and sales </p>
+                      <p className='content-writing'>User-centric web solutions: detail, design, results. With expertise and tech, I create apps that captivate, convert, and grow business. Quality optimized for impact.</p>
                   </div>
               </div>
               <div className={`${style.wrapper} p-6`}>
@@ -34,7 +34,7 @@ const Services = () => {
                   </div>
                   <div>
                       <p className='text-[1.6rem] md:text-[2rem] my-6 text-[#CCD6F6]'>Responsive Design</p>
-                      <p className='content-writing'>I make websites and apps that are mobile-savvy. Ensuring that its look and functions correctly on different devices and screen sizes. </p>
+                      <p className='content-writing'>Mobile-savvy sites & apps: seamless adaptation, optimized UX. Responsive design, rigorous testing for impeccable performance on various devices. Engage confidently, enhance satisfaction & reach. </p>
                   </div>
               </div>
               <div className={`${style.wrapper} p-6`}>
@@ -43,7 +43,7 @@ const Services = () => {
                   </div>
                   <div>
                       <p className='text-[1.6rem] md:text-[2rem] my-6 text-[#CCD6F6]'>API Integration</p>
-                      <p className='content-writing'>API Integration can be a complex process. I have a good understanding of HTTPS, JSON and API designs principles to be able to effectively Integrate with APIs</p>
+                      <p className='content-writing'>API Integration expert: nuanced process, HTTPS, JSON, design principles. Seamlessly ensure communication, data exchange. Leverage knowledge for effective integration, unlocking possibilities in apps.</p>
                   </div>
               </div>
              </section>

@@ -17,7 +17,7 @@ const Contact = () => {
         <div className="container sm:grid grid-cols-2 gap-4 sm:gap-10 lg:gap-32">
            <div className={`${style.contact__left} `}>
             <Subtitle subTitle = {'Contact me'}/>
-            <p className='content-writing'>I’m currently looking for any <span className='text-[#01d293]'>new opportunities</span>, my inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!</p>
+            <p className='content-writing'>I'm actively seeking <span className='text-[#01d293]'>new opportunities</span> and welcome any inquiries. Feel free to reach out to me with questions or simply to say hello, and I'll make every effort to respond promptly. My inbox is open and I'm eager to connect with you!</p>
            <address>
             <div> <ImLocation className={`${style.icons}`}/> <span>Delhi-India</span>
             </div> 
